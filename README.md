@@ -84,6 +84,8 @@ Despues crear una propuesta de adopcion incremental. El primer entregable debe s
 
 Spec-Driven Development significa que ninguna feature importante se implementa sin una spec minima.
 
+Regla obligatoria: Ninguna feature importante debe implementarse sin una spec minima.
+
 Flujo obligatorio:
 
 1. Entender el producto.

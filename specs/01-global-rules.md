@@ -5,6 +5,7 @@ Estas reglas aplican a todo proyecto que adopte buffa-build-system.
 ## Reglas de verdad
 
 - Las specs son la fuente de verdad.
+- Ninguna feature importante debe implementarse sin una spec minima.
 - El codigo implementa specs, no ideas sueltas.
 - Las tasks traducen specs en verticales ejecutables.
 - Los tests protegen reglas criticas.
