@@ -11,6 +11,39 @@ Guia para adaptar buffa-build-system a un proyecto nuevo o existente.
 - Modulos existentes.
 - Riesgos.
 
+Clasificar el tipo de producto:
+
+- SaaS.
+- POS.
+- Mobile app.
+- Marketplace.
+- Dashboard.
+- Landing.
+- Internal tool.
+- API.
+- E-commerce.
+- Sistema multi-tenant.
+
+Identificar stack:
+
+- Frontend.
+- Backend.
+- Mobile.
+- Database.
+- Auth.
+- Infra.
+- Testing.
+- CI/CD.
+
+Identificar madurez:
+
+- Idea.
+- MVP.
+- Prototipo.
+- Piloto.
+- Produccion.
+- Producto con usuarios.
+
 ## Paso 2: Mapear specs
 
 - Completar vision.
@@ -35,6 +68,28 @@ Comparar:
 - Codigo vs tests.
 - Tasks vs roadmap.
 - Permisos documentados vs permisos implementados.
+
+## Tabla de adaptacion
+
+Antes de tocar codigo, Codex debe generar una propuesta con esta tabla:
+
+| Archivo base | Se usa tal cual | Se adapta | No aplica | Motivo | Prioridad |
+| --- | --- | --- | --- | --- | --- |
+| TODO | TODO | TODO | TODO | TODO | TODO |
+
+Debe indicar:
+
+- Que specs faltan.
+- Que archivos de buffa-build-system aplicar tal cual.
+- Que archivos adaptar.
+- Que archivos no aplican.
+- Que decisiones quedan abiertas.
+- Que riesgos existen.
+- Que orden de implementacion seguir.
+
+## Regla
+
+Codex debe generar primero una propuesta antes de tocar codigo. No debe borrar nada, no debe reestructurar masivamente y no debe cambiar codigo durante la fase de adaptacion documental.
 
 ## Prompt de adaptacion
 

@@ -1,33 +1,46 @@
 # ADR: TODO Title
 
-## Status
+## Estado
 
 Proposed
 
-## Context
+## Fecha
+
+TODO
+
+## Contexto
 
 TODO: explicar problema, restricciones y motivo.
-
-## Options
-
-1. TODO
-2. TODO
-3. TODO
 
 ## Decision
 
 TODO
 
-## Consequences
+## Alternativas consideradas
 
-Positive:
+1. TODO
+2. TODO
+3. TODO
+
+## Consecuencias positivas
 
 - TODO
 
-Negative:
+## Consecuencias negativas
 
 - TODO
 
-## Review date
+## Cuando revisar esta decision
 
 TODO
+
+## Ejemplos de uso
+
+- Eleccion de stack.
+- Eleccion de base de datos.
+- Estrategia de auth.
+- Estrategia multi-tenant.
+- Estrategia offline.
+- Estrategia de pagos.
+- Estrategia de deploy.
+- Eleccion de arquitectura.

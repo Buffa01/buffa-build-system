@@ -2,10 +2,24 @@
 
 ```text
 Analiza este proyecto existente. Lee estructura, README, package files,
-configuracion, tests y modulos. Usa buffa-build-system como referencia.
-Detecta producto, stack, dominio, estado actual, gaps y riesgos.
-Propone una adaptacion incremental con specs, modulos y verticales.
-No reescribas todo. No inventes reglas.
+configuracion, tests, docs y modulos. Usa buffa-build-system como referencia.
+
+Detecta:
+
+1. Estructura actual.
+2. Stack.
+3. Modulos.
+4. Docs existentes.
+5. Deuda tecnica.
+6. Inconsistencias.
+7. Specs faltantes.
+8. Riesgos tecnicos.
+9. Riesgos de seguridad.
+
+No borres nada.
+No reestructures masivamente sin plan.
+No cambies codigo todavia.
+Primero crea una propuesta de migracion documental y tecnica para adoptar buffa-build-system.
 ```
 
 ## TODO

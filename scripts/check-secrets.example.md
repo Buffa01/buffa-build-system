@@ -11,6 +11,8 @@ Evitar secrets commiteados.
 - Private keys.
 - Passwords.
 - `.env` reales.
+- Credenciales de proveedores.
+- Certificados privados.
 
 ## Pseudocodigo
 

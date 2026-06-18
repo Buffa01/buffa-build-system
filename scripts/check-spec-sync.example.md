@@ -9,6 +9,9 @@ Detectar drift entre specs, tasks y codigo.
 - Si cambia un modulo core, revisar spec del modulo.
 - Si cambia permisos, revisar permissions.
 - Si cambia schema, revisar data model.
+- Cada modulo importante debe tener spec.
+- Cada task debe referenciar spec.
+- Cada decision importante debe tener ADR u open decision.
 
 ## Pseudocodigo
 

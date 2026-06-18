@@ -3,9 +3,25 @@
 ```text
 Usa buffa-build-system como metodologia base.
 Ayudame a iniciar un nuevo proyecto.
-Primero pregunta o deduce: producto, usuarios, stack, dominio, riesgos y MVP.
-Luego crea o adapta specs iniciales, roadmap y primeras verticales.
-No inventes reglas de negocio; deja TODOs donde falte informacion.
+No escribas codigo todavia.
+
+Primero analiza o pregunta:
+
+1. Tipo de producto.
+2. Usuario objetivo.
+3. Stack esperado.
+4. Dominio.
+5. Reglas conocidas.
+6. Modulos iniciales.
+7. Riesgos tecnicos.
+8. Riesgos de seguridad.
+9. Arquitectura necesaria.
+10. Estructura recomendada.
+11. Specs que hay que crear.
+
+Antes de implementar, propone como adaptar buffa-build-system al proyecto.
+Despues crea specs iniciales, roadmap y primeras verticales.
+No inventes reglas de negocio; deja TODOs y open decisions donde falte informacion.
 ```
 
 ## TODO

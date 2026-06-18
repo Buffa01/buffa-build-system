@@ -24,6 +24,42 @@ Codex debe actuar como ingeniero de producto: entender specs, tocar codigo con a
 - Pedir que no invente datos, APIs ni reglas.
 - Pedir que deje TODOs en archivos correctos.
 
+## Reglas obligatorias
+
+- Antes de implementar, leer specs relevantes.
+- Si falta spec, crear o proponer spec minima.
+- Mantener cambios acotados.
+- Trabajar por verticales de negocio.
+- Actualizar docs si cambia una regla.
+- Crear tests para reglas criticas.
+- Reportar que cambio, que verifico, que no pudo verificar y riesgos pendientes.
+- No asumir contexto no documentado.
+- Si una decision es incierta, agregarla a `open-decisions.md`.
+- Si detecta inconsistencia entre codigo y specs, reportarla antes de avanzar.
+
+## Codex puede
+
+- Proponer specs.
+- Mejorar documentacion.
+- Implementar features.
+- Crear tests.
+- Revisar arquitectura.
+- Detectar inconsistencias.
+- Proponer refactors.
+- Ayudar con bugs.
+
+## Codex no debe
+
+- Inventar decisiones de negocio.
+- Cambiar alcance sin marcarlo.
+- Implementar features grandes sin spec.
+- Borrar codigo del usuario sin permiso o justificacion clara.
+- Ignorar seguridad o permisos.
+- Saltarse tests.
+- Mezclar muchas tareas no relacionadas.
+- Crear dependencias innecesarias.
+- Cambiar stack sin ADR.
+
 ## Ejemplo de instruccion
 
 ```text

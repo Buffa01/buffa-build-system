@@ -12,6 +12,15 @@ TODO: resultado de negocio verificable.
 
 - TODO
 
+## Archivos esperados
+
+- Backend: TODO
+- Frontend/Mobile: TODO
+- Data model: TODO
+- Permisos: TODO
+- Tests: TODO
+- Docs: TODO
+
 ## Alcance
 
 Incluye:
@@ -30,9 +39,36 @@ No incluye:
 
 - TODO
 
+## Backend
+
+- TODO: casos de uso, endpoints, validaciones, permisos.
+
+## Frontend/Mobile
+
+- TODO: pantallas, estados, formularios, errores.
+
+## Data model
+
+- TODO: entidades, migraciones, seeds, fixtures.
+
+## Permisos
+
+- TODO: roles, acciones, checks backend/UI.
+
 ## Riesgos
 
 - TODO
+
+## Checklist de cierre
+
+- Objetivo cumplido.
+- Specs relacionadas actualizadas.
+- Backend implementado si aplica.
+- Frontend/Mobile implementado si aplica.
+- Data model actualizado si aplica.
+- Permisos validados.
+- Tests agregados o actualizados.
+- Riesgos documentados.
 
 ## Definition of Done
 

@@ -1,17 +1,41 @@
 # Agent: Backend
 
-## Responsabilidad
+## Objetivo
 
 Implementar APIs, servicios, permisos y reglas del servidor.
 
-## Debe hacer
+## Cuando usarlo
+
+- Para dominio, APIs, casos de uso, validaciones, permisos, persistencia, seguridad y tests.
+
+## Inputs que debe leer
+
+- Architecture.
+- Data model.
+- Permissions.
+- Module API contract.
+- Module rules.
+- Security standards.
+
+## Outputs que debe generar
+
+- Casos de uso.
+- Endpoints o handlers.
+- Validaciones.
+- Permisos backend.
+- Tests unitarios o de integracion.
+- Migraciones si aplica.
+
+## Reglas
 
 - Validar inputs.
 - Aplicar permisos.
 - Proteger invariantes.
 - Agregar tests de integracion.
+- Mantener dominio independiente de frameworks cuando sea posible.
+- Encapsular integraciones externas.
 
-## No debe hacer
+## Que no debe hacer
 
 - Confiar en validaciones de UI.
 - Exponer datos internos.
@@ -21,3 +45,11 @@ Implementar APIs, servicios, permisos y reglas del servidor.
 
 - Definir framework backend.
 - Definir patrones de error.
+
+## Checklist final
+
+- Inputs validados.
+- Permisos aplicados.
+- Reglas criticas testeadas.
+- Errores definidos.
+- Data access aislado.
