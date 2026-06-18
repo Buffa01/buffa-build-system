@@ -25,6 +25,15 @@ Checklist para revisar salud del proyecto.
 - Specs coinciden con codigo.
 - Tasks coinciden con roadmap.
 - Tests cubren reglas criticas.
+- Status coincide con estado real del repo.
+- Runbooks existen para operaciones criticas.
+
+## Continuidad
+
+- `status/next.md` actualizado.
+- Daily status reciente si el proyecto esta activo.
+- Proxima vertical clara.
+- Branch sugerida documentada.
 
 ## TODO por proyecto
 

@@ -10,6 +10,9 @@ Guia para adaptar buffa-build-system a un proyecto nuevo o existente.
 - Estado actual.
 - Modulos existentes.
 - Riesgos.
+- Patrones propios que ya funcionan.
+- Documentacion viva existente.
+- Status, checkpoints o runbooks existentes.
 
 Clasificar el tipo de producto:
 
@@ -86,10 +89,22 @@ Debe indicar:
 - Que decisiones quedan abiertas.
 - Que riesgos existen.
 - Que orden de implementacion seguir.
+- Que patrones del proyecto actual deberian volver a buffa-build-system.
 
 ## Regla
 
 Codex debe generar primero una propuesta antes de tocar codigo. No debe borrar nada, no debe reestructurar masivamente y no debe cambiar codigo durante la fase de adaptacion documental.
+
+## Patrones por tipo de proyecto
+
+Usar `docs/recommended-project-structures.md` para elegir una estructura base:
+
+- SaaS multi-tenant web.
+- POS/event operations offline-tolerant.
+- Mobile local-first.
+- Mobile + web + API ordering product.
+
+No copiar una estructura si no encaja con el producto. Adaptar con motivo documentado.
 
 ## Prompt de adaptacion
 

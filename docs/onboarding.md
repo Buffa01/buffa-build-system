@@ -10,6 +10,8 @@ Guia para una persona o agente que entra al proyecto.
 4. Architecture.
 5. Roadmap.
 6. Modulos activos.
+7. Status actual.
+8. Source project analysis si se esta mejorando la base.
 
 ## Entender
 
@@ -24,3 +26,4 @@ Guia para una persona o agente que entra al proyecto.
 - Agregar comandos locales.
 - Agregar credenciales de prueba seguras.
 - Agregar links de ambientes.
+- Crear status inicial.

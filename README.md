@@ -30,6 +30,7 @@ Analiza este nuevo proyecto, entende su producto, stack, dominio y estado actual
 - `tasks/`: verticales de ejecucion orientadas a valor de negocio.
 - `prompts/`: prompts reutilizables para Codex y agentes.
 - `docs/`: onboarding, glosario y salud del proyecto.
+- `status/`: continuidad de trabajo, proxima accion y daily logs.
 - `adr/`: decisiones tecnicas persistentes.
 - `checklists/`: controles antes de construir, revisar y lanzar.
 - `scripts/`: automatizaciones sugeridas para evitar depender de prompts.
@@ -46,6 +47,7 @@ Analiza este nuevo proyecto, entende su producto, stack, dominio y estado actual
 6. Ejecutar con agentes siguiendo `AGENTS.md` y `CODEX.md`.
 7. Agregar tests y scripts de verificacion antes de considerar terminada una vertical.
 8. Registrar decisiones importantes en `adr/`.
+9. Crear `status/next.md` para poder retomar contexto sin depender del chat.
 
 ## Cuando usarlo
 
@@ -79,6 +81,8 @@ No reestructurar todo de golpe. Primero inventariar:
 - Gaps de specs.
 
 Despues crear una propuesta de adopcion incremental. El primer entregable debe ser documental y tecnico, no una reescritura.
+
+Para proyectos existentes usar primero `agents/explorer.md` y `prompts/adapt-existing-project.md`. Si el proyecto tiene patrones mejores que esta base, registrar el aprendizaje en `docs/source-project-analysis.md`.
 
 ## Spec-Driven Development
 
@@ -125,6 +129,18 @@ Una spec minima debe responder:
 - `adr`: decisiones tecnicas importantes y sus tradeoffs.
 - `checklists`: controles repetibles antes de avanzar.
 - `scripts`: automatizaciones que reducen dependencia de prompts.
+- `status`: estado actual, proxima vertical y daily logs.
+
+## Proyectos fuente
+
+Esta base se calibra contra proyectos reales:
+
+- `LiveControl`: POS/event operations, offline, mobile cashier, package boundaries y runbooks.
+- `StayControl`: SaaS multi-tenant, monorepo apps/packages y backend como fuente de reglas.
+- `OrderNow`: continuidad con `status/`, roles de agentes operativos y vertical slices.
+- `FoodControl`: mobile local-first, feature specs, business rules, localizacion, privacidad y testing profundo.
+
+Ver `docs/source-project-analysis.md` para el resumen de patrones.
 
 ## Regla central
 

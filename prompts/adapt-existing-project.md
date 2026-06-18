@@ -20,6 +20,12 @@ No borres nada.
 No reestructures masivamente sin plan.
 No cambies codigo todavia.
 Primero crea una propuesta de migracion documental y tecnica para adoptar buffa-build-system.
+
+Usa esta tabla:
+
+Archivo / carpeta de buffa-build-system | Aplicar tal cual | Adaptar | No aplica | Motivo | Prioridad
+
+Tambien detecta si el proyecto tiene patrones mejores que deberian volver a buffa-build-system.
 ```
 
 ## TODO

@@ -15,6 +15,7 @@ Codex debe actuar como ingeniero de producto: entender specs, tocar codigo con a
 5. `specs/modules/README.md`
 6. Modulo especifico afectado
 7. Task activa
+8. `status/next.md` si existe
 
 ## Reglas para prompts
 
@@ -67,9 +68,18 @@ Usa buffa-build-system. Lee specs, detecta el modulo afectado y crea una
 vertical pequena. Implementa solo lo necesario, actualiza tests y reporta drift.
 ```
 
+## Ejemplo para auditar proyecto existente
+
+```text
+Usa el rol Explorer. Analiza este proyecto sin editar archivos. Detecta stack,
+estructura, modulos, docs, specs faltantes, riesgos y que partes de
+buffa-build-system aplican tal cual, se adaptan o no aplican.
+```
+
 ## TODO por proyecto
 
 - Definir stack.
 - Definir comandos locales.
 - Definir convenciones de ramas.
 - Definir estrategia de PR.
+- Crear `status/next.md`.

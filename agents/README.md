@@ -11,6 +11,11 @@ Define roles especializados para IA. Un agente no es una persona: es un modo de 
 
 ## Agentes disponibles
 
+- Explorer
+- Documentator
+- Planner
+- Implementer
+- Tester Reviewer
 - Spec Writer
 - Product
 - Backend
@@ -28,3 +33,17 @@ Define roles especializados para IA. Un agente no es una persona: es un modo de 
 - Definir agentes habilitados.
 - Definir owners humanos.
 - Definir permisos de ejecucion.
+
+## Orden recomendado
+
+Para adaptar un repo existente:
+
+```text
+explorer -> documentator -> planner -> implementer -> tester-reviewer
+```
+
+Para crear una feature desde cero:
+
+```text
+spec-writer -> planner -> backend/frontend/mobile/database -> testing -> review/security
+```

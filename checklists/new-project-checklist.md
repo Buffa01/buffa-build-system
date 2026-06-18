@@ -11,6 +11,9 @@
 - Agentes disponibles.
 - Prompts disponibles.
 - Tasks iniciales.
+- Status inicial.
+- Runbooks necesarios identificados.
+- Checkpoints iniciales definidos si aplica.
 - ADRs necesarias identificadas.
 - CI minimo.
 - Primera vertical definida.

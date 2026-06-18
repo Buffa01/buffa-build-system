@@ -15,6 +15,8 @@
 - Datos reales validados.
 - Secrets de produccion configurados.
 - Soporte y owners definidos.
+- Runbook de go-live definido.
+- Status actualizado para retomar incidentes.
 
 ## TODO
 

@@ -10,6 +10,10 @@ Este archivo define como deben operar Codex y otros agentes IA dentro de un proy
 - No modificar arquitectura sin ADR o aprobacion explicita.
 - No mezclar verticales no relacionadas.
 - Reportar gaps entre spec, codigo y tests.
+- Usar `Explorer` para auditar antes de adaptar un proyecto existente.
+- Usar `Documentator` para pasar decisiones de chat a specs/status.
+- Usar `Planner` antes de implementar features grandes.
+- Usar `Tester Reviewer` como revision con contexto fresco.
 
 ## Flujo obligatorio
 
@@ -20,6 +24,14 @@ Este archivo define como deben operar Codex y otros agentes IA dentro de un proy
 5. Agregar o actualizar tests.
 6. Ejecutar verificaciones disponibles.
 7. Resumir cambios, riesgos y pendientes.
+
+## Flujo para adaptar un proyecto existente
+
+1. `Explorer`: leer estructura, docs, stack, modulos y riesgos.
+2. `Documentator`: crear propuesta documental y matriz de adaptacion.
+3. `Planner`: ordenar primera migracion o primera vertical.
+4. `Implementer`: tocar codigo solo cuando haya spec/task.
+5. `Tester Reviewer`: revisar contra specs y tests.
 
 ## Limites de agentes
 
@@ -38,6 +50,14 @@ Un agente no puede:
 - Introducir servicios pagos sin decision registrada.
 - Saltar permisos, seguridad o tests criticos.
 - Hacer refactors grandes sin task dedicada.
+
+## Roles operativos
+
+- `agents/explorer.md`: lectura y diagnostico sin editar.
+- `agents/documentator.md`: documentacion, specs, status y decisiones.
+- `agents/planner.md`: plan de implementacion por verticales.
+- `agents/implementer.md`: implementacion acotada.
+- `agents/tester-reviewer.md`: revision independiente.
 
 ## Ejemplo
 

@@ -10,8 +10,11 @@ Automatizar lo que no debe depender de prompts:
 - Boundaries.
 - Secrets.
 - Sync entre specs y codigo.
+- Status y tasks desactualizados.
+- Boundaries de packages/apps.
 
 ## TODO por proyecto
 
 - Convertir ejemplos en scripts reales.
 - Agregar comandos a CI.
+- Agregar checks a `quality:rules` o equivalente.
